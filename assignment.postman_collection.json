@@ -1,0 +1,553 @@
+{
+	"id": "d7e5f0b2-d17b-3dc8-5af1-dd13869c9ea1",
+	"name": "assignment",
+	"description": "devon",
+	"order": [
+		"f9025878-cb2e-225b-b7cc-91ccd653b739",
+		"18cea69a-2955-9bff-a323-cb40451c4b68",
+		"04d13670-6a5b-219c-e559-b251bf6ac9b6",
+		"00500496-4a26-890a-a653-b33ba93b6b34",
+		"731b6ecc-7bf9-3444-9661-6843ab26e110",
+		"535495c9-af45-727e-8422-1f1ed172e3b2",
+		"415f72ab-d384-d4d2-b179-5e59eaa49025",
+		"c7bbb8ad-ba50-c8e3-f4bd-c73e5c4e8a45",
+		"b59add94-d9ee-19bf-d78f-cdd3b60e618a",
+		"fec1b301-a230-e645-48e2-ef4ba633a3d1",
+		"6f32d215-233c-651d-fc75-67b141678117"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1584306143737,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "00500496-4a26-890a-a653-b33ba93b6b34",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/assignment/public/api/v1/teams",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d7e5f0b2-d17b-3dc8-5af1-dd13869c9ea1",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost/assignment/public/api/v1/teams",
+			"description": "3. As an anonymous user [without login], I should be able to fetch teams list. Team information should\nhave name, logo. Should use the endpoint created in step 1.",
+			"descriptionFormat": "html",
+			"time": 1584306687133,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "04d13670-6a5b-219c-e559-b251bf6ac9b6",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/assignment/public/api/v1/teams",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "australia",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "logoUri",
+					"value": "http://localhost/test.jpg",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1584306540054,
+			"name": "http://localhost/assignment/public/api/v1/teams",
+			"description": "update Team API",
+			"collectionId": "d7e5f0b2-d17b-3dc8-5af1-dd13869c9ea1",
+			"responses": []
+		},
+		{
+			"id": "18cea69a-2955-9bff-a323-cb40451c4b68",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/assignment/public/api/v1/teams",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "australia",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "logoUri",
+					"value": "http://localhost/test.jpg",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "status",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1584306615333,
+			"name": "http://localhost/assignment/public/api/v1/teams",
+			"description": "Create Team API",
+			"collectionId": "d7e5f0b2-d17b-3dc8-5af1-dd13869c9ea1",
+			"responses": []
+		},
+		{
+			"id": "415f72ab-d384-d4d2-b179-5e59eaa49025",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/assignment/public/api/v1/teams/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1584307681782,
+			"name": "http://localhost/assignment/public/api/v1/players/1",
+			"description": "delete player by ID",
+			"collectionId": "d7e5f0b2-d17b-3dc8-5af1-dd13869c9ea1",
+			"responses": []
+		},
+		{
+			"id": "535495c9-af45-727e-8422-1f1ed172e3b2",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/assignment/public/api/v1/teams/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1584307681782,
+			"name": "http://localhost/assignment/public/api/v1/teams/1",
+			"description": "delete team by ID",
+			"collectionId": "d7e5f0b2-d17b-3dc8-5af1-dd13869c9ea1",
+			"responses": []
+		},
+		{
+			"id": "6f32d215-233c-651d-fc75-67b141678117",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/assignment/public/api/v1/playerbyteam",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "d7e5f0b2-d17b-3dc8-5af1-dd13869c9ea1",
+			"data": [
+				{
+					"key": "id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "name",
+					"value": "australia",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost/assignment/public/api/v1/playerbyteam",
+			"description": "4. As an anonymous user [without login], I should be able to fetch a team’s players based on team name\nor team identifier. Players list should consist of <image>, <lastName> <firstName>. Should use the\nendpoint created in step 1.",
+			"descriptionFormat": "html",
+			"time": 1584307441220,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "731b6ecc-7bf9-3444-9661-6843ab26e110",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/assignment/public/api/v1/teams/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d7e5f0b2-d17b-3dc8-5af1-dd13869c9ea1",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost/assignment/public/api/v1/teams/1",
+			"description": "get team by ID",
+			"descriptionFormat": "html",
+			"time": 1584306796477,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b59add94-d9ee-19bf-d78f-cdd3b60e618a",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/assignment/public/api/v1/players",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "firstName",
+					"value": "sachin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lastName",
+					"value": "tendullkar",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "imageUri",
+					"value": "http://localhost/test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "teamId",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "6",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1584307225673,
+			"name": "http://localhost/assignment/public/api/v1/players",
+			"description": "update player API",
+			"collectionId": "d7e5f0b2-d17b-3dc8-5af1-dd13869c9ea1",
+			"responses": []
+		},
+		{
+			"id": "c7bbb8ad-ba50-c8e3-f4bd-c73e5c4e8a45",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/assignment/public/api/v1/players",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "d7e5f0b2-d17b-3dc8-5af1-dd13869c9ea1",
+			"data": [
+				{
+					"key": "firstName",
+					"value": "sachin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lastName",
+					"value": "tendullkar",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "imageUri",
+					"value": "http://localhost/test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "teamId",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost/assignment/public/api/v1/players",
+			"description": "create player API",
+			"descriptionFormat": "html",
+			"time": 1584307116287,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f9025878-cb2e-225b-b7cc-91ccd653b739",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.Gfip9I8y6Se6V6ADfkK3m5Wt3GSAXhhnzQicexFR9RY\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.Gfip9I8y6Se6V6ADfkK3m5Wt3GSAXhhnzQicexFR9RY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/assignment/public/api/v1/admin/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "d7e5f0b2-d17b-3dc8-5af1-dd13869c9ea1",
+			"data": [
+				{
+					"key": "email",
+					"value": "admin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost/assignment/public/api/v1/admin/login",
+			"description": "Admin Login",
+			"descriptionFormat": "html",
+			"time": 1584306254104,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "fec1b301-a230-e645-48e2-ef4ba633a3d1",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsInVzZXJSb2xlIjoiYWRtaW4ifQ.jpeak3eMwCJdd4Cd3lnUDQl5EM8khuTmC15UWgeKVMQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/assignment/public/api/v1/search_player",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "d7e5f0b2-d17b-3dc8-5af1-dd13869c9ea1",
+			"data": [
+				{
+					"key": "name",
+					"value": "math",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "lastName",
+					"value": "nath1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "imageUri",
+					"value": "http://localhost/test",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "teamId",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "status",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost/assignment/public/api/v1/search_player",
+			"description": "As an anonymous user [without login], I should be able to fetch a player based on player name or\nplayer identifier. Player list should consist of <image>, <lastName> <firstName> and the team name.\nShould use the endpoint created in step 1.",
+			"descriptionFormat": "html",
+			"time": 1584306232634,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
